@@ -3,6 +3,7 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+//using System.Data;
 using System.Diagnostics;
 /// <summary>
 /// The SeaGrid is the grid upon which the ships are deployed.
@@ -58,7 +59,8 @@ public class SeaGrid : ISeaGrid
 	/// <param name="x">x coordinate of the tile</param>
 	/// <param name="y">y coordiante of the tile</param>
 	/// <returns></returns>
-	public TileView this[int x, int y] {
+	public TileView this[int x, int y]
+	{
 		get { return _GameTiles[x, y].View; }
 	}
 

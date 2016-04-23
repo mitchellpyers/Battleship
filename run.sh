@@ -59,3 +59,4 @@ elif [ "$OS" = "$LIN" ]; then
 else #Windows
     "${EXE_PATH}"
 fi
+

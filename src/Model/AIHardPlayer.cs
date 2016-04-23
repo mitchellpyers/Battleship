@@ -1,7 +1,9 @@
+
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+//using System.Data;
 using System.Diagnostics;
 /// <summary>
 /// AIHardPlayer is a type of player. This AI will know directions of ships
@@ -189,7 +191,7 @@ public class AIHardPlayer : AIPlayer
 	private void ProcessDestroy(int row, int col, Ship ship)
 	{
 		bool foundOriginal = false;
-		Location source = default(Location);
+		Location source = null;
 		Target current = null;
 		current = _CurrentTarget;
 

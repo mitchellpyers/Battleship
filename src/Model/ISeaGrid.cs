@@ -1,7 +1,9 @@
+
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+//using System.Data;
 using System.Diagnostics;
 /// <summary>
 /// The ISeaGrid defines the read only interface of a Grid. This
@@ -36,10 +38,3 @@ public interface ISeaGrid
 	/// <returns>the result of the attack</returns>
 	AttackResult HitTile(int row, int col);
 }
-
-//=======================================================
-//Service provided by Telerik (www.telerik.com)
-//Conversion powered by NRefactory.
-//Twitter: @telerik
-//Facebook: facebook.com/telerik
-//=======================================================

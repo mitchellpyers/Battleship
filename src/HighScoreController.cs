@@ -199,7 +199,8 @@ static class HighScoreController
 			_Scores.RemoveAt(_Scores.Count - 1);
 			_Scores.Add(s);
 			_Scores.Sort();
-
+			
+			SaveScore();
 			GameController.EndCurrentState();
 		}
 	}
